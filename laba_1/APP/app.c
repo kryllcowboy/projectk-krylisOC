@@ -10,15 +10,12 @@ void app_run(void)
 {
   while(1)
   {
-    GPIOD -> ODR = 0x3000;
-  HAL_Delay(500);
+  GPIOD -> ODR = 0xF000;
+  HAL_Delay(400);
   GPIOD -> ODR = 0x0000; 
-  HAL_Delay(500);
-    
-  GPIOC -> ODR = 0xC000;
-  HAL_Delay(500);
-  GPIOC -> ODR &= ~0xC000; 
-  HAL_Delay(500);
+  HAL_Delay(200);
+ 
+   
   }
   
 }
