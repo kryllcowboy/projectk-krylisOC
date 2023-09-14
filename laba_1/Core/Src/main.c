@@ -22,7 +22,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "app.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -90,20 +90,13 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  app_init();
+  app_run();
   while (1)
   {
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-  GPIOD -> ODR = 0x3000;
-  HAL_Delay(500);
-  GPIOD -> ODR = 0x0000; 
-  HAL_Delay(500);
-    
-  GPIOC -> ODR = 0xC000;
-  HAL_Delay(500);
-  GPIOC -> ODR &= ~0xC000; 
-  HAL_Delay(500);
   }
   /* USER CODE END 3 */
 }
