@@ -14,8 +14,6 @@ void app_run(void)
   HAL_Delay(400);
   GPIOD -> ODR = 0x0000; 
   HAL_Delay(200);
- 
-   
   }
   
 }

@@ -1,5 +1,8 @@
 # Build
-MDK-ARM/
+*/MDK-ARM/*
+!*/MDK-ARM/*.uvprojx
+!*/MDK-ARM/*.s
+
 
 # Temporary files
 .mxproject
