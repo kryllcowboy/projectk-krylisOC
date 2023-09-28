@@ -567,7 +567,7 @@
             <File>
               <FileName>button.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\button.h</FilePath>
+              <FilePath>..\Components\button\button.h</FilePath>
             </File>
           </Files>
         </Group>

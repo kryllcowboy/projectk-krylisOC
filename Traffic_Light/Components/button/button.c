@@ -1,4 +1,4 @@
-//#include "button.h"
+#include "button.h"
 #include "app.h"
 #include "light.h"
 #include "timer.h"
